@@ -70,15 +70,55 @@ public class ControlFlowExercises {
         System.out.println("Here's your table:");
 
         System.out.println(" Number |  Squared  | Cubed");
-        System.out.println(" ------ |  -------  | -----\n");
+        System.out.println(" ------ |  -------  | -----");
 
 
         for (int i = 1; i <= userInput; i++) {
-            System.out.printf("");
+            System.out.printf("%-6d  |  %-7d  | %d%n", userInput, userInput*userInput, userInput*userInput*userInput);
         }
 
 
-        //%-9d%
+//
+//
+//        }
+//        int userGrade = input.nextInt(); // store the scanner value to a integer variable
+//
+//
+//                int quotient = userGrade / 10;
+//                int remainder = quotient % 10;
+//
+//                switch (quotient) { //based on the numerical grade value --> do the corresponding task
+//                    case 10:
+//                    case 9:
+//                        System.out.println("A");
+//                        break;
+//                    case 8:
+//                        System.out.println("B");
+//                        break;
+//                    case 7:
+//                        System.out.println("C");
+//                        break;
+//                    case 6:
+//                        System.out.println("D");
+//                        break;
+//                    case 5:
+//                    case 1:
+//                    case 4:
+//                    case 3:
+//                    case 2:
+//                        System.out.println("F");
+//                        break;
+//                    default:
+//                        System.out.println("Try again");
+//                        break;
+//                }
+
+
+
+
+
+
+
 
 
 
